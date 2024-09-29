@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: #db2828;
 }
 
 header {
-  background-color: #004080;
-  color: white;
+  background-color: #4f8000;
+  color: rgb(84, 230, 230);
   padding: 20px 0;
 }
 
@@ -38,10 +38,10 @@ main .container {
 }
 
 .form-section {
-  background-color: white;
+  background-color: rgb(141, 96, 96);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(88, 13, 158, 0.1);
 }
 
 .form-section h2 {
@@ -64,25 +64,25 @@ main .container {
 .form-section textarea,
 .form-section button {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #9b4949;
   border-radius: 5px;
   font-size: 16px;
 }
 
 .form-section button {
-  background-color: #004080;
+  background-color: #7d9708;
   color: white;
   cursor: pointer;
   border: none;
 }
 
 .form-section button:hover {
-  background-color: #003366;
+  background-color: #741858;
 }
 
 footer {
-  background-color: #f1f1f1;
-  color: #333;
+  background-color: #1d9dad;
+  color: #f7e336;
   text-align: center;
   padding: 10px 0;
   margin-top: 20px;
