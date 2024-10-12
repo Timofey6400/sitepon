@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Site-Pon</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Super Puper Geroi 100% safeness</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="contact-info">
+                <p>Contact: Super Geroi Site</p>
+                <p>Dr. Super Puper Geroi</p>
+                <p>Email: <a href="mailto:supersitemanager@gmail.com">supersitemanager@gmail.com</a></p>
+            </section>
+
+            <section class="form-section">
+                <h2>Input Form</h2>
+                <form id="patient-form" action="/answer" method="post" enctype="multipart/form-data">
+                    <label for="file">Image:</label>
+                    <input type="file" id="age" name="file" required>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="race">Race:</label>
+                    <select id="race" name="race" required>
+                        <option value="europian">Europian</option>
+                        <option value="australian">Australian</option>
+                        <option value="negro">Negro</option>
+                        <option value="monholian">Monholian</option>
+                    </select>
+
+                    <label for="weight">Weight(KG):</label>
+                    <input type="number" id="weight" name="weight" required>
+
+                    <label for="name">Name(Full name):</label>
+                    <input type="text" id="weight" name="name" required>
+
+                    
+                    <button type="ok">Ok</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact Us: <a href="mailto:info@supersite.com">info@supersite.com</a> | Phone: +380(52)777-77</p>
+        </div>
+    </footer>
+</body>
+
+</html>
