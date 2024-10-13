@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
 body {
-    background-color: #565758;
+    background-color: #5f5454;
     font-family: "Roboto", helvetica, arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -22,7 +22,7 @@ div.table-title {
     font-weight: 400;
     font-style: normal;
     font-family: "Roboto", helvetica, arial, sans-serif;
-    text-shadow: -1px -1px 1px rgba(163, 14, 14, 0.692);
+    text-shadow: -1px -1px 1px rgba(16, 14, 14, 0.692);
     text-transform: uppercase;
 }
 
@@ -43,11 +43,11 @@ div.table-title {
 }
 
 th {
-    color: #2d547a;
+    color: #0b0c0d;
     ;
-    background: #2a5c16;
+    background: #adb6aa;
     border-bottom: 4px solid #dbe5ee;
-    border-right: 1px solid #660536;
+    border-right: 1px solid #242223;
     font-size: 23px;
     font-weight: 100;
     padding: 24px;
@@ -75,7 +75,7 @@ tr {
 }
 
 tr:hover td {
-    background: #01b63e;
+    background: #605cc3;
     color: #FFFFFF;
     border-top: 1px solid #f7f9fd;
 }
@@ -89,7 +89,7 @@ tr:last-child {
 }
 
 tr:nth-child(odd) td {
-    background: #EBEBEB;
+    background: #6260dc;
 }
 
 tr:nth-child(odd):hover td {

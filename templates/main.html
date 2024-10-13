@@ -2,28 +2,27 @@
 <html>
 
 <head>
-    <title>Сайт</title>
+    <title>Site</title>
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>PattersonHeiman&Thompson ALS Diagnosis Predictor</h1>
-            <p>(ALS Hope Foundation Initiative)</p>
+            <h1>Rylfi School</h1>
         </div>
     </header>
 
     <main>
         <div class="container">
             <section class="contact-info">
-                <p>Contact: ALS Hope Foundation Clinic, Temple University Hospital</p>
-                <p>Dr. Terry Heiman-Patterson, Director/Founder</p>
-                <p>Email: <a href="mailto:terryheimanpatterson@gmail.com">terryheimanpatterson@gmail.com</a></p>
+                <p>Contact: Hight School "Rylfi" </p>
+                <p>Director Mr.Tom Wenty</p>
+                <p>Email: <a href="mailto:rylfischool@gmail.com">rylfischool@gmail.com</a></p>
             </section>
 
             <section class="form-section">
-                <h2>Patient Input Form</h2>
+                <h2>Student Input Form</h2>
                 <form id="patient-form" action="/answer" method="post" enctype="multipart/form-data">
                     <label for="file">Image:</label>
                     <input type="file" id="age" name="file" required>
@@ -39,8 +38,8 @@
                         <option value="monholian">Monholian</option>
                     </select>
 
-                    <label for="weight">Weight(KG):</label>
-                    <input type="number" id="weight" name="weight" required>
+                    <label for="class">Class(num):</label>
+                    <input type="number" id="class" name="class" required>
 
                     <label for="name">Name(Full name):</label>
                     <input type="text" id="weight" name="name" required>
@@ -55,9 +54,7 @@
 
     <footer>
         <div class="container">
-            <p>Contact Us: <a href="mailto:info@alsclinic.com">info@alsclinic.com</a> | Phone: (52) 777-77</p>
-            <p>Disclaimer: This tool is for informational purposes only and should not replace professional medical
-                advice.</p>
+            <p>Contact Us: <a href="mailto:info@Rylfischoolinfo.com">info@Rylfischoolinfo.com</a> | Phone: +380(52)777-77</p>
         </div>
     </footer>
 </body>
